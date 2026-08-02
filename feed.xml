@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <title>truckaround.app</title>
+    <title>Test1</title>
     <link href="https://johnrshearer.github.io/www.truckaround.app/feed.xml" rel="self" />
     <link href="https://johnrshearer.github.io/www.truckaround.app" />
     <updated>1969-12-31T16:00:00-08:00</updated>
     <author>
-        <name>Violeta Ruiz Gavira</name>
+        <name>JohnRS</name>
     </author>
     <id>https://johnrshearer.github.io/www.truckaround.app</id>
 

@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://johnrshearer.github.io/www.truckaround.app/sitemap.xml

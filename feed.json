@@ -1,0 +1,13 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "truckaround.app",
+    "description": "",
+    "home_page_url": "https://johnrshearer.github.io/www.truckaround.app",
+    "feed_url": "https://johnrshearer.github.io/www.truckaround.app/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Violeta Ruiz Gavira"
+    },
+    "items": [
+    ]
+}

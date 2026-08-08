@@ -1,0 +1,49 @@
+# Site Settings
+title: "TruckAround"
+tagline: "TruckAround and find great food!"
+description: "Find and track the best food trucks near you."
+url: "" # Kept relative for GitHub Pages
+baseurl: "" # Kept relative for root domain deployment
+
+# Theme
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "air" # Options: default, air, mint, dark, contrast
+
+# Plugins (GitHub Pages Whitelisted)
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+
+# Minimal Mistakes Defaults
+locale: "en-US"
+repository: "your-username/your-repo-name" # Replace with your GitHub repo
+
+# Pagination
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# Front Matter Defaults (Minimizes YAML in individual Markdown files)
+defaults:
+  # Default settings for regular pages (e.g., About, Contact, Homepage)
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: false
+      sidebar:
+        nav: "main"
+  # Default settings for blog posts
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+      author_profile: true
+      read_time: true
+      comments: false
+      sidebar:
+        nav: "main"
